@@ -18,7 +18,7 @@ const Chat = () => {
     <Card className='w-[448px]'>
       <CardHeader>
         <CardTitle>Chat AI</CardTitle>
-        <CardDescription>Using Vercel SDK to create a chat box.</CardDescription>
+        <CardDescription>Usando a Vercel SDK para a criação de um chat.</CardDescription>
       </CardHeader>
 
       <CardContent>
@@ -60,8 +60,8 @@ const Chat = () => {
 
       <CardFooter>
         <form className='w-full flex gap-2' onSubmit={handleSubmit}>
-          <Input placeholder='How can I help you?' value={input} onChange={handleInputChange} />
-          <Button type='submit'>Send</Button>
+          <Input placeholder='Como posso ajudá-lo(a)?' value={input} onChange={handleInputChange} />
+          <Button type='submit'>Enviar</Button>
         </form>
       </CardFooter>
     </Card>
